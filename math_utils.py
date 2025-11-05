@@ -12,6 +12,7 @@ def find_mean(num1, num2, num3):
     mean = (num1 + num2 + num3) / 3
     return mean
 
+
 def find_mean_std(num1, num2, num3):
     mean = find_mean(num1, num2, num3)
     # חישוב סטיית תקן נכונה
